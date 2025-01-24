@@ -61,7 +61,7 @@ public class ProductController {
 	    return service.getProductByCategory(productCategory);
 	}
 
-	@GetMapping("/getAll")  //http://localhost:8080/products/getAll
+	@GetMapping("/ ")  //http://localhost:8080/products/getAll
 	public List<Product> getAllProducts()
 	{
 		return service.getAllProducts();
